@@ -53,7 +53,7 @@ function TransferBalance (props) {
                                 onChange={(e) => handleChange(e)}
                                 class="rounded-r-lg flex-1 appearance-none border border-gray-300 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent" placeholder="Receiver's Account Number" required/>
                         </div>
-                        { ( inputs.receipientAccountNumber?.length != 8 && inputs.receipientAccountNumber?.length != undefined) ? <p className='text-xs text-right text-red-500'>Enter 8 digit account number</p> : '' }
+                        { ( inputs.receipientAccountNumber?.length !== 8 && inputs.receipientAccountNumber?.length !== undefined) ? <p className='text-xs text-right text-red-500'>Enter 8 digit account number</p> : '' }
                     </div>
                     <div class="flex flex-col mt-4 mb-6">
                         <div class="flex relative">

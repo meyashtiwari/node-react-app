@@ -1,6 +1,7 @@
 # Getting Started with this Project
 
-This project is based on the MERN stack and has two parts. You have to run npm install in root directory as well as frontend directory.
+This project is based on the MERN stack and has two parts. 
+You have to run npm install in root directory as well as frontend directory.
 Create .env file from the .env.example file.
 
 ## Available Scripts

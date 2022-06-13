@@ -6,6 +6,8 @@ function Notification(props) {
                 return 'bg-green-200 border-green-600 text-green-600 border-l-4 p-4';
             case 'error':
                 return 'bg-red-200 border-red-600 text-red-600 border-l-4 p-4';
+            default:
+                return '';
         }
     }
 
