@@ -17,7 +17,7 @@ function Notification(props) {
 
     return (
         <div className={applyClass(props.type)} role="alert">
-            <p class="font-bold">
+            <p className="font-bold">
                 { props.message }
             </p>
         </div>
